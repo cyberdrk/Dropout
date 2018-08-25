@@ -1,4 +1,4 @@
-# Dropout-
+# Dropout 
 In this experiment, we implement Dropout, a simple yet highly effective Regularization technique. We examine and implement the technique of Inverted Dropout (applied to neurons only while training unlike Vanilla Dropout where the criterion is evaluated for each neuron while testing) 
 
 Dropout is an extremely effective, simple and recently introduced regularization technique by Srivastava et al. in Dropout: A Simple Way to Prevent Neural Networks from Overfitting (2014, JMLR) that complements the other methods (L1, L2, maxnorm). At each training iteration a dropout layer randomly removes some nodes in the network long with all of their incoming and outgoing connections. Dropout can be applied to hidden or input layer. 
